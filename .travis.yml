@@ -6,8 +6,11 @@ script:
   - npm run deploy
 notifications:
   email:
-    - d.dimitric@levi9.com
-    - d.veljovic@levi9.com
-    - nebojsa.loznjakovic@gmail.com
-    - m.dodovic@levi9.com
-    - g.gardic@levi9.com
+    recipients:
+      - d.dimitric@levi9.com
+      - d.veljovic@levi9.com
+      - nebojsa.loznjakovic@gmail.com
+      - m.dodovic@levi9.com
+      - g.gardic@levi9.com
+    on_success: always
+    on_failure: always
