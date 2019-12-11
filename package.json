@@ -1,0 +1,19 @@
+{
+  "name": "hack9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "serverless": "^1.59.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contractless/hack9.git"
+  },
+  "author": "Contractless",
+  "license": "MIT"
+}
